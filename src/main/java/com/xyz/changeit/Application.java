@@ -12,8 +12,7 @@ import java.util.List;
 /**
  * Created by Marc on 10/01/2016.
  */
-@SpringBootApplication(scanBasePackages = {"com.xyz.changeit.conf", "com.xyz.changeit.data",
-        "com.xyz.changeit.service", "com.xyz.changeit.web"})
+@SpringBootApplication(scanBasePackages = {"com.xyz.changeit.conf", "com.xyz.changeit.web"})
 public class Application implements CommandLineRunner {
 
     @Autowired
